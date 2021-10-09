@@ -31,6 +31,10 @@ class ArtsProcessor:
         txt_sz = len(text)
         if txt_sz < win_sz:
             return False
+        
+        # dont run script checking if lang is set to any
+        if self.lang == "any":
+            return True
 
         chr_valid = [in_script(c, self.script) for c in text]
         subarr_sum = chr_valid.copy()
