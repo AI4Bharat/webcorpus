@@ -1,5 +1,10 @@
 name,home_url,sitemap_url,use_sitemap,active
-esamaad,http://esamaad.com/,,False,True
-maithilijindabaad,http://www.maithilijindabaad.com/,,False,True
-videha,http://www.videha.co.in/,,False,True
-maithili_katha,http://maithili-katha.blogspot.com/,,False,True
+blogspot,http://maithili-katha.blogspot.com,,False,True
+4pmnewsonline,http://www.4pmnewsonline.com,,False,True
+videha,http://www.videha.co.in,,False,True
+esamaad,https://esamaad.com,,False,True
+maithilijindabaad,https://maithilijindabaad.com,,False,True
+mithilamirror,https://mithilamirror.com,,False,True
+mppdainik,https://mppdainik.com,,False,True
+simanchal,https://simanchal.com,,False,True
+mithimedia,https://www.mithimedia.in,,False,True
