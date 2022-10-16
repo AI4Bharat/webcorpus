@@ -1,6 +1,4 @@
 name,home_url,sitemap_url,use_sitemap,active
-meiteimayek,http://e-pao.net/epPageExtractor.asp?src=MeiteiMayek.meetei_mayek_Editorials.html..,,False,True
-poknapham,http://www.poknapham.in/,,False,True
-thesangaiexpress,https://www.thesangaiexpress.com/manipuri/,,False,True
-hueiyenlanpao,http://hueiyenlanpao.com/,,False,True
-
+poknapham,http://poknapham.in,,False,True
+ireibak,https://ireibak.in/postlist.aspx,,False,True
+thesangaiexpress,https://www.thesangaiexpress.com/manipuri,,False,True

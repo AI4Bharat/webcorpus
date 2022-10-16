@@ -1,4 +1,4 @@
 name,home_url,sitemap_url,use_sitemap,active
-bodosanewspaper,https://bodosanewspaper.com/,,False,True
-sentinelassam,https://bodo.sentinelassam.com/,,False,True
-bodoinfo,https://www.bodoinfo.com/,,False,True
+sentinelassam,https://bodo.sentinelassam.com,,False,True
+bodosanewspaper,https://bodosanewspaper.com,,False,True
+bodoinfo,https://www.bodoinfo.com,,False,True
