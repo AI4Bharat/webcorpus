@@ -181,3 +181,19 @@ class AjitjalandharSpider(RecursiveSpider):
 
         self.link_extractor = LinkExtractor()
         super().__init__(*args, **kwargs)
+
+
+class NewsOnAirSpider(RecursiveSpider):
+    name = "newsonair-spider"
+
+    def __init__(self, *args, **kwargs):
+        self.start_urls = [kwargs['home_url']]
+        super().__init__(*args, **kwargs)
+        if kwargs['lang'] == "en":
+            exclude = [
+                '/hindi/', '/Gujarati/', '/marathi/', '/urdu/', 
+                '/tamil/', '/dogri/', '/Assamese/', '/Rajasthani/'
+            ]
+            self.link_extractor = LinkExtractor(deny=exclude)
+        else:
+            self.link_extractor = LinkExtractor()
